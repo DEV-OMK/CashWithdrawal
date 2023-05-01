@@ -1,0 +1,92 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 40%;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile {
+  color: #7c3aed;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 17px;
+  width: 70px;
+  height: 70px;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 500;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-a {
+  font-size: 20px;
+  color: #585076;
+  font-weight: 500;
+}
+
+.balance {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.text-b {
+  font-size: 14px;
+  color: #382f5a;
+}
+
+.text-c {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
